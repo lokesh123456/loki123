@@ -1,0 +1,41 @@
+header{
+	position: fixed;
+	overflow: hidden;
+
+}
+.first{
+	background:grey;
+}
+header h1{
+	
+	letter-spacing: 2px;
+	font-size: 60px;
+	text-shadow: 2px 2px 2px ;
+	
+}
+ nav a{
+	text-decoration: none;
+}
+nav li{
+	display: inline;
+}
+nav a:hover{
+text-decoration: underline;
+color:red;
+}
+.main{
+	margin-top: 90px;
+	background-color: #e3e3e3;
+	margin-left: 0px;
+}
+.main p{
+	line-height: 2;
+}
+.main a{
+	text-decoration: none;
+}
+.main a:hover{
+	font-size: 16px;
+	color: red;
+	text-decoration: underline;
+}
